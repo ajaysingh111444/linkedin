@@ -24,7 +24,7 @@
 	setInterval(() => {
 		let objDiv = document.querySelector('.msg-conversations-container__conversations-list');
 		objDiv.scrollTop = objDiv.scrollHeight;
-	}, 1000);
+	}, 5000);
   };
   goneFn();
 })();
