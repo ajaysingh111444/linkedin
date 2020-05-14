@@ -23,7 +23,7 @@
     }, 1000);
 	setInterval(() => {
 		let objDiv = document.querySelector('.msg-conversations-container__conversations-list');
-		objDiv.scrollTop = objDiv.scrollHeight - objDev.clientHeight;
+		objDiv.scrollTop = objDiv.scrollHeight - objDiv.clientHeight;
 	}, 5000);
   };
   goneFn();
